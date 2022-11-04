@@ -12,3 +12,10 @@ botonesNumeros.forEach(boton => {
 botonesOperadores.forEach(boton => {
     boton.addEventListener('click', () => display.computar(boton.value))
 });
+
+const dark = document.querySelector("#dark");
+const body= document.querySelector("body", ".calculadora");
+dark.addEventListener("click", e =>{
+    body.classList.toggle("modo-dark");
+});
+    
