@@ -84,12 +84,12 @@ button:focus {
 .modo-dark{
     background-color: #141414;
 }
-.modo-dark  td calculadora{
+.modo-dark .calculadora{
     background-color:#141414 ;
     border:solid #ffffff;
 }
 
-.button-dark {
+.modo-dark  button{
     cursor: pointer;
     margin: 5px;
     padding: 0;
@@ -97,11 +97,13 @@ button:focus {
     font-size: 1.5em;
     border: none;
     background-color: #00916e; 
+    box-shadow: none;
 }
-.dark{
+.modo-dark .dark{
     width: 180px;
     cursor: pointer;
     background-color: #00916e;
     box-shadow: 5px 10px 0px 5px #00000033;
- 
+
 }
+

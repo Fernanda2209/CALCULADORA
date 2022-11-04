@@ -14,7 +14,7 @@ botonesOperadores.forEach(boton => {
 });
 
 const dark = document.querySelector("#dark");
-const body= document.querySelector("body", ".calculadora");
+const body= document.querySelector("body",);
 dark.addEventListener("click", e =>{
     body.classList.toggle("modo-dark");
 });
