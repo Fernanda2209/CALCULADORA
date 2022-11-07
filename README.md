@@ -67,4 +67,15 @@ En esta seccion aprendi como seleccionar elementos especificos y darle estilos d
 
 JS
 
+En este caso maneje el javascript en varias partes 
+
+![image](https://user-images.githubusercontent.com/114700033/200345726-214ef077-74cd-479b-a9b6-56a5fa3d22ee.png)
+
+Tal y como se muestra en el video que mecione anteriormente
+
+Calculadora
+
+![image](https://user-images.githubusercontent.com/114700033/200346200-a8a3e7cd-fcd4-4e26-b024-eda6f2101760.png)
+
+En esta parte lo que se hizo fue de alguna manera plasmar o definir las operaciones que se iban a usar de manera general dentro de la calculadora, esto por medio de una clase que nombramos Calculadora.
 
