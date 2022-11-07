@@ -57,4 +57,14 @@ En esta seccion aprendi como unir de alguna manera el html con los documentos o 
 
 CSS
 
-En 
+En este caso le di los estilos genrales a la calculadora haciendo uso principalmente de grid, para darle el tamaño tanto a la columnas como a las filas, ademas de esto tambien es importante recalcar que le di estilos al dark mode en esta seccion de la siguiete manera:
+
+![image](https://user-images.githubusercontent.com/114700033/200338319-3ac05bc5-0d14-4ec4-ae6c-a02bfbed60a7.png)
+
+En esta seccion aprendi como seleccionar elementos especificos y darle estilos diferentes asi mismo, por otro lado aprendi que se le pueden dar dos clases diferentes a un mismo elemento simplemente dando un espacio entre las mismas.
+
+![image](https://user-images.githubusercontent.com/114700033/200339253-be2520bf-6bfc-4bdd-89ea-fda83793e487.png)
+
+JS
+
+
