@@ -79,3 +79,16 @@ Calculadora
 
 En esta parte lo que se hizo fue de alguna manera plasmar o definir las operaciones que se iban a usar de manera general dentro de la calculadora, esto por medio de una clase que nombramos Calculadora.
 
+Display.
+
+![image](https://user-images.githubusercontent.com/114700033/200347246-7507870f-5428-4dd5-ae9a-7de9a2e12c38.png)
+
+![image](https://user-images.githubusercontent.com/114700033/200347323-dc05db87-eb82-4f7f-9879-70c9dd46891f.png)
+
+
+Index.js
+
+![image](https://user-images.githubusercontent.com/114700033/200347446-c890a91e-59be-45b0-8c6e-f06a5d298d7a.png)
+
+
+
