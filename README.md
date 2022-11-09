@@ -1,32 +1,32 @@
-# CALCULADORA
+# CALCULATOR
 
-# Contexto del proyecto.
+# Context of the proyect.
 
-Una calculadora es un dispositivo electrónico usado para hacer diversos cálculos aritméticos.
+A calculator is an electronic device used to perform various arithmetic calculations.
 
-Es una de la herramientas de trabajo de pequeño tamaño que todo estudiante o profesional utiliza, que le ayuda a calcular diversas operaciones. aritméticas y matemáticas sean básicas o complejas.
+It is one of the small working tools that every student or professional uses, which helps them to calculate various arithmetic and mathematical operations, whether basic or complex.
 
-Las calculadoras que efectúas cálculos básicos suelen tener funciones de división, adición, sustracción y multiplicación; mientras que las más complejas suelen hacer cálculos más desarrollados como es calcular cuadrados, raíces, funciones trigonométricas y estadísticas.
+The calculators that perform basic calculations usually have functions of division, addition, subtraction and multiplication; while the more complex ones usually do more developed calculations such as calculating squares, roots, trigonometric functions and statistics.
 
-# Requerimientos tecnicos.
+# Technical requirements.
 
-El proyecto:
+The project:
 
-DEBE tener modo dia y modo noche
-DEBE realziar sumas
-DEBE realizar restas
-DEBE realizar multiplicaciones
-DEBE realizar divisiones
-DEBE tener el boton de igual funcional
-DEBE mosotrar el resultado de cada operación
-DEBE mostrar los numero del 0 al 9 y estos deben ser funcionales
-DEBE Poder tener un boton para limpiar y de jar en 0 la calculadora
-DEBE tener un boton para borrar la operacion que ese esta realziando o el ultimo numero puesto
-DEBE ser 100% responsiva en celular y en escritorio (en escritorio se debe ocupar toda la pantalla)
+MUST have day mode and night mode
+MUST perform addition
+MUST perform subtraction
+MUST perform multiplication
+MUST perform division
+MUST have functional equals button
+MUST display the result of each operation
+MUST display numbers from 0 to 9 and these must be functional
+MUST be able to have a button to clear and reset the calculator to 0
+MUST have a button to erase the operation being performed or the last number entered
+MUST be 100% responsive on mobile and desktop (on desktop it must occupy the entire screen)
 
-# Desarrollo tecnico.
+# Technical development.
 
-Para desarrollar este proyecto me guie de en el siguiente video:
+To develop this project I was guided by the following video:
 
 https://youtu.be/7YDagj3cVAk
 
@@ -35,51 +35,51 @@ https://youtu.be/7YDagj3cVAk
 ![image](https://user-images.githubusercontent.com/114700033/200335491-7dc9d60d-29d7-4255-97a0-9aa15931b1ff.png)
 
 
-Este es el resultado final de la calculadora con vista en computador
+This is the final result of the calculator with computer view
 
-# Documentacion por secciones.
+# Documentation by sections
 
 HTML 
 
 ![image](https://user-images.githubusercontent.com/114700033/200335832-29d4da2e-1bb0-4b5c-90ed-5f7970ff490a.png)
 
-Esta es la parte general del proyecto o por decirlo asi su esqueleto, en esta seccion y como a lo largo del proyecto segui cada paso en la forma en que se indicaba, se usaron botones de y difernets div para que las secciones fueran mas faciles de manipular al momento de darle estilos o funcionalidad, en este punto es importante mencionar que tuve un problema que explicare a continuacion:
+This is the general part of the project or so to speak its skeleton, in this section and as throughout the project I followed each step in the way it was indicated, buttons and div difernets were used so that the sections were easier to manipulate when giving styles or functionality, at this point it is important to mention that I had a problem that I will explain below:
 
 ![image](https://user-images.githubusercontent.com/114700033/200336440-aa18528f-0811-4cd3-b862-eecc13e1465d.png)
 
-Tuve que agregar esto ya que en version movil, el traductor tomaba algunas partes de codigo las traducia y las mismas rompian el codigo de tal manera que era imposible usarla, lo que solucione agragandole un no translate.
+I had to add this because in the mobile version, the translator took some parts of the code and translated them and they broke the code in such a way that it was impossible to use it, which I solved by adding a no translate.
 
 ![image](https://user-images.githubusercontent.com/114700033/200336988-a56dcdc6-4d9c-4a6d-bb83-b0b21b784806.png)
 
 ![image](https://user-images.githubusercontent.com/114700033/200337042-bc11ba4d-9f5c-45dc-b1c2-5ef6680f23b6.png)
 
-En esta seccion aprendi como unir de alguna manera el html con los documentos o los scripts qu eiba realizando.
+In this section I learned how to somehow link the html with the documents or scripts I was making.
 
 CSS
 
-En este caso le di los estilos genrales a la calculadora haciendo uso principalmente de grid, para darle el tamaño tanto a la columnas como a las filas, ademas de esto tambien es importante recalcar que le di estilos al dark mode en esta seccion de la siguiete manera:
+In this case I gave the general styles to the calculator making use mainly of grid, to give the size to the columns and rows, besides this it is also important to emphasize that I gave styles to the dark mode in this section in the following way:
 
 ![image](https://user-images.githubusercontent.com/114700033/200338319-3ac05bc5-0d14-4ec4-ae6c-a02bfbed60a7.png)
 
-En esta seccion aprendi como seleccionar elementos especificos y darle estilos diferentes asi mismo, por otro lado aprendi que se le pueden dar dos clases diferentes a un mismo elemento simplemente dando un espacio entre las mismas.
+In this section I learned how to select specific elements and give them different styles, on the other hand I learned that you can give two different classes to the same element by simply giving a space between them.
 
 ![image](https://user-images.githubusercontent.com/114700033/200339253-be2520bf-6bfc-4bdd-89ea-fda83793e487.png)
 
 JS
 
-En este caso maneje el javascript en varias partes 
+In this case I handled the javascript in several parts 
 
 ![image](https://user-images.githubusercontent.com/114700033/200345726-214ef077-74cd-479b-a9b6-56a5fa3d22ee.png)
 
-Tal y como se muestra en el video que mecione anteriormente
+As shown in the video I mentioned previously
 
 Calculadora
 
 ![image](https://user-images.githubusercontent.com/114700033/200346200-a8a3e7cd-fcd4-4e26-b024-eda6f2101760.png)
 
-En esta parte lo que se hizo fue de alguna manera plasmar o definir las operaciones que se iban a usar de manera general dentro de la calculadora, esto por medio de una clase que nombramos Calculadora.
+In this part what was done was to somehow capture or define the operations that were going to be used in a general way inside the calculator, this by means of a class that we named Calculator.
 
-Como en los requerimientos se plasmo que las operaciones que debia desarrollar el proyecto eran cuatro estas son las que se plasmaron aqui por medio de suma, resta, multiplicacion y division, asi mismo con num1 y num2 que en un futuro representarian los valores que el usuario ingrese.
+As in the requirements it was stated that the operations that the project had to develop were four these are the ones that were expressed here by means of addition, subtraction, multiplication and division, likewise with num1 and num2 that in a future would represent the values that the user enters, in this case what I understood is that the return is also used to return the value of the operation.
 
 Display.
 
