@@ -79,6 +79,8 @@ Calculadora
 
 En esta parte lo que se hizo fue de alguna manera plasmar o definir las operaciones que se iban a usar de manera general dentro de la calculadora, esto por medio de una clase que nombramos Calculadora.
 
+Como en los requerimientos se plasmo que las operaciones que debia desarrollar el proyecto eran cuatro estas son las que se plasmaron aqui por medio de suma, resta, multiplicacion y division, asi mismo con num1 y num2 que en un futuro representarian los valores que el usuario ingrese.
+
 Display.
 
 ![image](https://user-images.githubusercontent.com/114700033/200347246-7507870f-5428-4dd5-ae9a-7de9a2e12c38.png)
